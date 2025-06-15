@@ -18,3 +18,4 @@ jobs:
 
       - name: Deploy to Surge
         run: surge ./ --domain ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN}}
+
